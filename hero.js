@@ -59,14 +59,14 @@
 
 // // The "Unwise Assassin"
 // // This hero will attempt to kill the closest enemy hero. No matter what.
- var move = function(gameData, helpers) {
-   var myHero = gameData.activeHero;
-   if (myHero.health < 30) {
-     return helpers.findNearestHealthWell(gameData);
-   } else {
-     return helpers.findNearestEnemy(gameData);
-   }
-};
+// var move = function(gameData, helpers) {
+//   var myHero = gameData.activeHero;
+//   if (myHero.health < 30) {
+//     return helpers.findNearestHealthWell(gameData);
+//   } else {
+//     return helpers.findNearestEnemy(gameData);
+//   }
+// };
 
 // // The "Careful Assassin"
 // // This hero will attempt to kill the closest weaker enemy hero.
